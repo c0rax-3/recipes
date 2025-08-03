@@ -1,0 +1,9 @@
+p span{
+    color:rgb(126, 67, 0);
+    font-size: 30px;
+    text-decoration: underline dotted rgb(213, 31, 31);
+}
+
+p {
+    font-family: cursive;
+}

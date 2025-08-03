@@ -1,0 +1,10 @@
+ol.ingredients span {
+    color: rgb(0, 161, 241);
+    font-size: 30px;
+    text-decoration: underline dotted rgb(177, 241, 0);
+    
+}
+
+ol {
+    font-family: cursive;
+}
