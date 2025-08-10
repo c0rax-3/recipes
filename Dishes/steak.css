@@ -1,9 +1,30 @@
-p span{
-    color:rgb(126, 67, 0);
+ul.ingredients div.title {
+    color: rgb(122, 79, 5);
     font-size: 30px;
-    text-decoration: underline dotted rgb(213, 31, 31);
+    text-decoration: underline dotted rgb(255, 0, 0);
+    margin-bottom: 16px;
 }
 
-p {
+ol.steps div.title {
+    color: rgb(122, 79, 5);
+    font-size: 30px;
+    text-decoration: underline dotted rgb(255, 0, 0);
+    margin-bottom: 16px;
+}
+
+ul.ingredients div.body {
+    border: 4px rgb(124, 76, 0) solid;
+    padding: 16px;
+    background-color:rgb(197, 114, 114);
+}
+
+ol.steps div.body {
+    border: 4px rgb(124, 76, 0) solid;
+    padding: 16px;
+    background-color: rgb(197, 114, 114);
+}
+
+* {
     font-family: cursive;
+    text-align: center;
 }

@@ -1,10 +1,30 @@
-ol.ingredients span {
+ul.ingredients div.title {
     color: rgb(0, 161, 241);
     font-size: 30px;
     text-decoration: underline dotted rgb(177, 241, 0);
-    
+    margin-bottom: 16px;
 }
 
-ol {
+ol.steps div.title {
+    color: rgb(0, 161, 241);
+    font-size: 30px;
+    text-decoration: underline dotted rgb(177, 241, 0);
+    margin-bottom: 16px;
+}
+
+ul.ingredients div.body {
+    border: 4px rgb(41, 105, 38) solid;
+    padding: 16px;
+    background-color: aquamarine;
+}
+
+ol.steps div.body {
+    border: 4px rgb(41, 105, 38) solid;
+    padding: 16px;
+    background-color: aquamarine;
+}
+
+* {
     font-family: cursive;
+    text-align: center;
 }
